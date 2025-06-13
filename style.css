@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background: rgb(131, 133, 224);
+    padding:0;
+    margin: 0;
+    overflow:hidden;
+
+}
+
+.game-container{
+    position: relative;
+    width:352px;
+    height: 198px;
+    margin: 0 auto;
+    outline: 1px solid white;
+
+    transform: scale(3) translateY(40%)
+}
+
+.game-container canvas {
+    image-rendering:pixelated;
+}
+
+#at{
+    transform: scale(0.69) translateY(-130px);
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    visibility:hidden;
+}
+
+
+button {
+    background: rgba(155, 98, 98, 0);
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    scale:2.9;
+    position:relative;
+    visibility: hidden;
+    }
+   
+#btnid1{
+   visibility: hidden;
+   position: relative;
+   top:-92px;
+   left: 497px;
+   border: 1px;
+}  
+
+#btnid2{
+    visibility: hidden;
+    position: relative;
+    top:-78px;
+    left: 618px;
+    border: 1px;} 
+
+#btnid4{
+    visibility: hidden;
+    position: relative;
+    top:-92px;
+    left: 840px;
+    border: 1px;} 
+
+#btnid3{
+    visibility: hidden;
+    position: relative;
+    top:-94px;
+    left: 730px;
+    border: 1px;} 
+
+#btnid5{
+    visibility: hidden;
+    position: relative;
+    top:132px;
+    left: 210px;
+    border: 1px;} 
+
+#btnid6{
+    visibility: hidden;
+    position: relative;
+    top:112px;
+    left: 324px;
+    border: 1px;}
+    
+#btnid7{
+    visibility: hidden;
+    position: relative;
+    top:117px;
+    left: 435px;
+    border: 1px;} 
+  
+#btnid8{
+    visibility: hidden;
+    position: relative;
+    top:128px;
+    left: 545px;
+    border: 1px;} 
+
+#btn_id1{
+    visibility: hidden;
+    position: absolute;
+    top:140px;
+    left: 568px;
+    border: 1px;}  
+
+#btn_id2{
+visibility: hidden;
+position: absolute;
+top:265px;
+left: 568px;
+border: 1px;} 
+
+#btn_id3{
+    visibility: hidden;
+    position: absolute;
+    top:397px;
+    left: 568px;
+    border: 1px;} 
+
+#btn_id4{
+    visibility: hidden;
+    position: absolute;
+    top:140px;
+    left: 875px;
+    border: 1px;} 
+
+#btn_id5{
+visibility: hidden;
+position: absolute;
+top:260px;
+left: 875px;
+border: 1px;}
+
+#btn_id6{
+    visibility: hidden;
+    position: absolute;
+    top:377px;
+    left: 875px;
+    border: 1px;}
+
+button.btnID{
+    visibility: hidden;}
+
+button.btn_ID{
+    visibility: hidden;}
+
+#image{
+    visibility: hidden;
+    position:relative;
+    top:60px;
+        left: 50px;
+        scale:2;
+}
